@@ -8,11 +8,12 @@ import ShopDetail from './routing/ShopDetail';
 import StateTutorial from "./hooks/StateTutorial";
 import ReducerTutorial from "./hooks/ReducerTutorial"
 import EffectTutorial  from "./hooks/EffectTutorial";
+import RefTutorial from "./hooks/RefTutorial";
 
 function App() {
     return (
         <div className="App">
-        <EffectTutorial />
+        <RefTutorial />
         </div>
         // <Router>
         //     <div className="App">
