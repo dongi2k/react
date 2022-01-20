@@ -1,19 +1,20 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
-import Nav from './routing/Nav';
-import About from './routing/About';
-import Shop from './routing/Shop';
-import ShopDetail from './routing/ShopDetail';
-import StateTutorial from "./hooks/StateTutorial";
-import ReducerTutorial from "./hooks/ReducerTutorial"
-import EffectTutorial  from "./hooks/EffectTutorial";
-import RefTutorial from "./hooks/RefTutorial";
+// import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+// import Nav from './routing/Nav';
+// import About from './routing/About';
+// import Shop from './routing/Shop';
+// import ShopDetail from './routing/ShopDetail';
+// import StateTutorial from "./hooks/StateTutorial";
+// import ReducerTutorial from "./hooks/ReducerTutorial"
+// import EffectTutorial  from "./hooks/EffectTutorial";
+// import RefTutorial from "./hooks/RefTutorial";
+import LayoutEffectTutorial from "./hooks/LayoutEffectTutorial";
 
 function App() {
     return (
         <div className="App">
-        <RefTutorial />
+        <LayoutEffectTutorial />
         </div>
         // <Router>
         //     <div className="App">
