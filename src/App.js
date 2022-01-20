@@ -10,11 +10,12 @@ import './App.css';
 // import EffectTutorial  from "./hooks/EffectTutorial";
 // import RefTutorial from "./hooks/RefTutorial";
 import LayoutEffectTutorial from "./hooks/LayoutEffectTutorial";
+import ImperativeHandle from "./hooks/ImperativeHandle";
 
 function App() {
     return (
         <div className="App">
-        <LayoutEffectTutorial />
+        <ImperativeHandle />
         </div>
         // <Router>
         //     <div className="App">
