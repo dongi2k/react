@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .App-logo {
@@ -36,3 +37,25 @@
     transform: rotate(360deg);
   }
 }
+
+/*.App {*/
+/*  text-align: center;*/
+/*}*/
+
+/*nav{*/
+/*  display: flex;*/
+/*  justify-content: space-around;*/
+/*  align-items: center;*/
+/*  min-height: 10vh;*/
+/*  background: rgba(20,20,41,0.69);*/
+/*  color: white;*/
+/*}*/
+
+/*.nav-links{*/
+/*  width: 40%;*/
+/*  display: flex;*/
+/*  justify-content: space-around;*/
+/*  align-items: center;*/
+/*  list-style: none;*/
+/*}*/
+
